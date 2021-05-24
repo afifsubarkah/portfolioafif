@@ -9,8 +9,17 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
     <!-- main css -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- skin color -->
+    <link rel="stylesheet" type="text/css" href="css/skins/color-1.css" />
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-1" href="css/skins/color-1.css" />
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-2" href="css/skins/color-2.css" disabled />
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-3" href="css/skins/color-3.css" disabled />
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-4" href="css/skins/color-4.css" disabled />
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled />
+    <!-- skin kolor ganti -->
+    <link rel="stylesheet" type="text/css" href="css/style-switcher.css" />
     <!-- default color skin -->
-    <link rel="stylesheet" href="css/color1.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 </head>
 
 <body>
@@ -34,19 +43,22 @@
         <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
         <div class="nav-menu-inner">
             <ul>
-                <li><a href="#" class="inner-shadow active">Home</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">About</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">Services</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">Portfolio</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">Testimonial</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">Contact</a></li>
+                <li><a href="#home" class="link-item inner-shadow active">Home</a></li>
+                <li><a href="#about" class="link-item outer-shadow hover-in-shadow">About</a></li>
+                <li><a href="#services" class="link-item outer-shadow hover-in-shadow">Services</a></li>
+                <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">Portfolio</a></li>
+                <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">Testimonial</a></li>
+                <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contact</a></li>
             </ul>
         </div>
+        <!-- copyright text -->
+        <p class="copyright-text">&copy; 2020 Afif Subarkah</p>
     </nav>
+    <div class="fade-out-effect"></div>
     <!-- navigation end -->
 
     <!-- home section start -->
-    <section class="home-section section">
+    <section class="home-section section active" id="home">
         <!-- effect wrap start -->
         <div class="effect-wrap">
             <div class="effect effect-1"></div>
@@ -61,11 +73,11 @@
                     <p>Hello</p>
                     <h2>I'm Afif Subarkah</h2>
                     <h1>UI/UX Designer</h1>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+                    <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
                 </div>
                 <div class="home-img">
                     <div class="img-box inner-shadow">
-                        <img src="img/image 10.png" class="outer-shadow" alt="profile-pic" />
+                        <img src="img/yuhu.jpg" class="outer-shadow" alt="profile-pic" />
                     </div>
                 </div>
             </div>
@@ -74,7 +86,7 @@
     <!-- home section end -->
 
     <!-- About Section start -->
-    <section class="about-section section">
+    <section class="about-section section" id="about">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -98,12 +110,15 @@
                 <div class="about-info">
                     <p>
                         <span>Hi My name is Afif Subarkah. I'm UI/UX Designer</span>
-                        <p>I am a graduate Indonesian Computer University (UNIKOM) Bandung. born in cianjur 15 December 1996 now I live in Graha Sevilla, Citra Raya Tangerang. Banten. I am very interested in the world of design, i love the world of design
-                            started from The final project that I made when finish my studies. and until recently this I keep motivated and keep learning the creative industry is not that world course and definitely demands a change on every time. I desire
-                            the world design is not just for business but as a medium of preaching. and learning media to make it better in the future.
-                        </p>
-                        <a href="cvapip.pdf" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
-                        <a href="#" class="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+                    </p>
+
+                    <p>
+                        I am a graduate Indonesian Computer University (UNIKOM) Bandung. born in cianjur 15 December 1996 now I live in Graha Sevilla, Citra Raya Tangerang. Banten. I am very interested in the world of design, i love the world of design started from The final
+                        project that I made when finish my studies. and until recently this I keep motivated and keep learning the creative industry is not that world course and definitely demands a change on every time. I desire the world design is not
+                        just for business but as a medium of preaching. and learning media to make it better in the future.
+                    </p>
+                    <a href="cvapip.pdf" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
+                    <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
                 </div>
             </div>
             <!-- about tabs start -->
@@ -302,7 +317,7 @@
     <!-- about sectipn end -->
 
     <!-- services start -->
-    <section class="service-section section">
+    <section class="service-section section" id="services">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -382,7 +397,7 @@
     <!-- services end -->
 
     <!-- portfolio section start-->
-    <div class="portfolio-section section">
+    <section class="portfolio-section section" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -407,7 +422,7 @@
                     <div class="portfolio-item-inner outer-shadow">
                         <div class="portfolio-item-img">
                             <img src="img/portfolio/thumb/1.png" alt="portfolio" data-screenshots="img/portfolio/large/project-1/g.png,
-                            img/portfolio/large/project-1/w2.png">
+                            img/portfolio/large/project-1/w2.png" />
                             <!-- view project btn -->
                             <span class="view-project">View project</span>
                         </div>
@@ -425,7 +440,9 @@
                                         <li>Date - <span>2020</span></li>
                                         <li>Client - <span>My self :)</span></li>
                                         <li>Tools - <span>html, css, javascript</span></li>
-                                        <li>Web - <span><a href="#">www.myportfolio.com</a></span></li>
+                                        <li>
+                                            Web - <span><a href="#">www.myportfolio.com</a></span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -443,7 +460,7 @@
                             img/portfolio/large/project-2/w3.png,
                             img/portfolio/large/project-2/w4.png,
                             img/portfolio/large/project-2/1.jpg,
-                            img/portfolio/large/project-2/2.jpg">
+                            img/portfolio/large/project-2/2.jpg" />
                             <!-- view project btn -->
                             <span class="view-project">View project</span>
                         </div>
@@ -461,7 +478,9 @@
                                         <li>Date - <span>2019</span></li>
                                         <li>Client - <span>Mehreed</span></li>
                                         <li>Tools - <span>html, css, jquery</span></li>
-                                        <li>Web - <span><a href="https://mehreed.com/">www.mehreed.com</a></span></li>
+                                        <li>
+                                            Web - <span><a href="https://mehreed.com/">www.mehreed.com</a></span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -478,7 +497,7 @@
                             img/portfolio/large/project-3/w2.png,
                             img/portfolio/large/project-3/w33.png,
                             img/portfolio/large/project-3/w5.png,
-                            img/portfolio/large/project-3/w6.png">
+                            img/portfolio/large/project-3/w6.png" />
                             <!-- view project btn -->
                             <span class="view-project">View project</span>
                         </div>
@@ -496,7 +515,9 @@
                                         <li>Date - <span>2021</span></li>
                                         <li>Client - <span>Unknown</span></li>
                                         <li>Tools - <span>html, css, bootstrap-5</span></li>
-                                        <li>Web - <span><a href="#">www.unknown.com</a></span></li>
+                                        <li>
+                                            Web - <span><a href="#">www.unknown.com</a></span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -509,7 +530,7 @@
                 <div class="portfolio-item" data-category="web-application">
                     <div class="portfolio-item-inner outer-shadow">
                         <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/project-4.png" alt="portfolio" data-screenshots="img/portfolio/large/project-4/1.jpg">
+                            <img src="img/portfolio/thumb/project-4.png" alt="portfolio" data-screenshots="img/portfolio/large/project-4/1.jpg" />
                             <!-- view project btn -->
                             <span class="view-project">View project</span>
                         </div>
@@ -527,7 +548,9 @@
                                         <li>Date - <span>2021</span></li>
                                         <li>Client - <span>Unknown</span></li>
                                         <li>Tools - <span>html, css, jquery</span></li>
-                                        <li>Web - <span><a href="#">www.unknown.com</a></span></li>
+                                        <li>
+                                            Web - <span><a href="#">www.unknown.com</a></span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -544,7 +567,7 @@
                             img/portfolio/large/project-5/w1.png,
                             img/portfolio/large/project-5/w3.png,
                             img/portfolio/large/project-5/w4.png,
-                            img/portfolio/large/project-5/w5.png">
+                            img/portfolio/large/project-5/w5.png" />
                             <!-- view project btn -->
                             <span class="view-project">View project</span>
                         </div>
@@ -562,7 +585,9 @@
                                         <li>Date - <span>2020</span></li>
                                         <li>Client - <span>QL Agrofood Tbk</span></li>
                                         <li>Tools - <span>html, css, javascript, sql</span></li>
-                                        <li>Web - <span><a href="http://qlagrofood.com/">www.qlagrofood.com</a></span></li>
+                                        <li>
+                                            Web - <span><a href="http://qlagrofood.com/">www.qlagrofood.com</a></span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -578,7 +603,7 @@
                             <img src="img/portfolio/thumb/medalix.png" alt="portfolio" data-screenshots="img/portfolio/large/project-6/w1.png,
                             img/portfolio/large/project-6/w2.png,
                             img/portfolio/large/project-6/w3.png,
-                            img/portfolio/large/project-6/w4.png">
+                            img/portfolio/large/project-6/w4.png" />
                             <!-- view project btn -->
                             <span class="view-project">View project</span>
                         </div>
@@ -596,7 +621,9 @@
                                         <li>Date - <span>2020</span></li>
                                         <li>Client - <span>xyz</span></li>
                                         <li>Tools - <span>html, css, javascript</span></li>
-                                        <li>Web - <span><a href="https://medalixtstore.com/">www.medalixtstore.com</a></span></li>
+                                        <li>
+                                            Web - <span><a href="https://medalixtstore.com/">www.medalixtstore.com</a></span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -610,7 +637,7 @@
                     <div class="portfolio-item-inner outer-shadow">
                         <div class="portfolio-item-img">
                             <img src="img/portfolio/thumb/vearst.png" alt="portfolio" data-screenshots="img/portfolio/large/project-7/w1.png,
-                            img/portfolio/large/project-7/w2.png">
+                            img/portfolio/large/project-7/w2.png" />
                             <!-- view project btn -->
                             <span class="view-project">View project</span>
                         </div>
@@ -628,7 +655,9 @@
                                         <li>Date - <span>2020</span></li>
                                         <li>Client - <span>Vearst</span></li>
                                         <li>Tools - <span>html, css, javascript, sql</span></li>
-                                        <li>Play store - <span><a href="https://vearst.co/">www.vearst.co</a></span></li>
+                                        <li>
+                                            Play store - <span><a href="https://vearst.co/">www.vearst.co</a></span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -641,7 +670,7 @@
                 <div class="portfolio-item" data-category="photoshop">
                     <div class="portfolio-item-inner outer-shadow">
                         <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/sangkuriang.png" alt="portfolio" data-screenshots="img/portfolio/large/project-8/w1.png">
+                            <img src="img/portfolio/thumb/sangkuriang.png" alt="portfolio" data-screenshots="img/portfolio/large/project-8/w1.png" />
                             <!-- view project btn -->
                             <span class="view-project">View project</span>
                         </div>
@@ -659,7 +688,9 @@
                                         <li>Date - <span>2020</span></li>
                                         <li>Client - <span>Unknown</span></li>
                                         <li>Tools - <span>html, css, javascript,</span></li>
-                                        <li>Play store - <span><a href="#">www.unknown.com</a></span></li>
+                                        <li>
+                                            Play store - <span><a href="#">www.unknown.com</a></span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -671,60 +702,202 @@
             </div>
             <!-- portfolio items end -->
         </div>
-        </section>
-        <!-- portfolio section end -->
+    </section>
+    <!-- portfolio section end -->
 
-        <!-- portfolio popup start -->
-        <div class="pp portfolio-popup">
-            <div class="pp-details">
-                <div class="pp-details-inner">
-                    <div class="pp-title">
-                        <h2>personal fortfolio</h2>
-                        <p>Category - <span class="pp-project-category">Web Application</span></p>
+    <!-- testimonial start -->
+    <section class="testimonial-section section" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="testimonial">Client Speak</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testi-box">
+                    <div class="testi-slider outer-shadow">
+                        <div class="testi-slider-container">
+                            <!-- testi item start -->
+                            <div class="testi-item">
+                                <i class="fas fa-quote-left left"></i>
+                                <i class="fas fa-quote-right right"></i>
+                                <p>Web design? the appearance of the website that you access on the internet.</p>
+                                <img src="img/testimonial/1.png" alt="testimonial" />
+                                <span>Andi Setiawan</span>
+                            </div>
+                            <!-- testi item end -->
+                            <!-- testi item start -->
+                            <div class="testi-item">
+                                <i class="fas fa-quote-left left"></i>
+                                <i class="fas fa-quote-right right"></i>
+                                <p>Web design? the appearance of the website that you access on the internet.</p>
+                                <img src="img/testimonial/1.png" alt="testimonial" />
+                                <span>Fajar Gumilar Darajat</span>
+                            </div>
+                            <!-- testi item end -->
+                            <!-- testi item start -->
+                            <div class="testi-item active">
+                                <i class="fas fa-quote-left left"></i>
+                                <i class="fas fa-quote-right right"></i>
+                                <p>Web design? the appearance of the website that you access on the internet.</p>
+                                <img src="img/testimonial/1.png" alt="testimonial" />
+                                <span>Bobby Reynaldo</span>
+                            </div>
+                            <!-- testi item end -->
+                        </div>
                     </div>
-                    <div class="pp-project-details">
+                    <div class="testi-slider-nav">
+                        <span class="prev outer-shadow hover-in-shadow"><i class="fas fa-angle-left"></i></span>
+                        <span class="next outer-shadow hover-in-shadow"><i class="fas fa-angle-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial end -->
+
+    <!-- contact section start -->
+    <section class="contact-section section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="contact">Get In Touch</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- contact item start -->
+                <div class="contact-item">
+                    <div class="contact-item-inner outer-shadow">
+                        <i class="fas fa-phone"></i>
+                        <span>Phone</span>
+                        <p>0895335060120</p>
+                    </div>
+                </div>
+                <!-- contact item end -->
+                <!-- contact item start -->
+                <div class="contact-item">
+                    <div class="contact-item-inner outer-shadow">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                        <p>afifsubarkah@mahasiswa.unikom.ac.id</p>
+                    </div>
+                </div>
+                <!-- contact item end -->
+                <!-- contact item start -->
+                <div class="contact-item">
+                    <div class="contact-item-inner outer-shadow">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Address</span>
+                        <p>Graha Sevilla Blok T8 No 18 Tangerang, Banten</p>
+                    </div>
+                </div>
+                <!-- contact item end -->
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form>
                         <div class="row">
-                            <div class="description">
-                                <h3>Project Brief :</h3>
-                                <p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, seperti yang diharapkan clien aku maunya ini website lebih baik lagi oke jing</p>
+                            <div class="w-50">
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <input type="text" placeholder="Name" class="input-control" />
+                                </div>
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <input type="text" placeholder="Email" class="input-control" />
+                                </div>
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <input type="text" placeholder="Subject" class="input-control" />
+                                </div>
                             </div>
-                            <div class="info">
-                                <h3>Project Info</h3>
-                                <ul>
-                                    <li>Date - <span>2020</span></li>
-                                    <li>Client - <span>xyz</span></li>
-                                    <li>Tools - <span>html, css, jquery</span></li>
-                                    <li>Web - <span><a href="#">www.domain.com</a></span></li>
-                                </ul>
+                            <div class="w-50">
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <textarea class="input-control" placeholder="Message"></textarea>
+                                </div>
                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="submit-btn">
+                                <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- portfolio popup start -->
+    <div class="pp portfolio-popup">
+        <div class="pp-details">
+            <div class="pp-details-inner">
+                <div class="pp-title">
+                    <h2>personal fortfolio</h2>
+                    <p>Category - <span class="pp-project-category">Web Application</span></p>
+                </div>
+                <div class="pp-project-details">
+                    <div class="row">
+                        <div class="description">
+                            <h3>Project Brief :</h3>
+                            <p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, seperti yang diharapkan clien aku maunya ini website lebih baik lagi oke jing</p>
+                        </div>
+                        <div class="info">
+                            <h3>Project Info</h3>
+                            <ul>
+                                <li>Date - <span>2020</span></li>
+                                <li>Client - <span>xyz</span></li>
+                                <li>Tools - <span>html, css, jquery</span></li>
+                                <li>
+                                    Web - <span><a href="#">www.domain.com</a></span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="separator"></div>
-
-            <div class="pp-main">
-                <div class="pp-main-inner">
-                    <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details<i class="fas fa-plus"></i></div>
-                    <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
-                    <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
-                    <div class="pp-counter">1 of 6</div>
-                </div>
-                <div class="pp-loader">
-                    <div></div>
-                </div>
-                <!-- pp navigation -->
-                <div class="pp-prev"><i class="fas fa-play"></i></div>
-                <div class="pp-next"><i class="fas fa-play"></i></div>
-            </div>
         </div>
-        <!-- portfolio popup end -->
 
-        <!-- main js -->
-        <script src="js.js"></script>
-        <!-- style switcher js -->
-        <script src="js/style-switcher.js"></script>
+        <div class="separator"></div>
+
+        <div class="pp-main">
+            <div class="pp-main-inner">
+                <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details<i class="fas fa-plus"></i></div>
+                <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+                <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow" />
+                <div class="pp-counter">1 of 6</div>
+            </div>
+            <div class="pp-loader">
+                <div></div>
+            </div>
+            <!-- pp navigation -->
+            <div class="pp-prev"><i class="fas fa-play"></i></div>
+            <div class="pp-next"><i class="fas fa-play"></i></div>
+        </div>
+    </div>
+    <!-- portfolio popup end -->
+    <!-- style switcher start -->
+    <div class="style-switcher outer-shadow">
+        <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon outer-shadow hover-in-shadow">
+            <i class="fas fa-moon"></i>
+        </div>
+
+        <h4>Themee Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- style switcher end -->
+
+    <!-- main js -->
+    <script src="js.js"></script>
+    <!-- style switcher js -->
+    <script src="style-switcher.js"></script>
 </body>
 
 </html>
