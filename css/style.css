@@ -882,7 +882,7 @@ about section
     color: var(--text-black-900);
     text-transform: capitalize;
     font-size: 16px;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 .portfolio-section .filter-item:hover:not(.active) {
@@ -908,7 +908,7 @@ about section
 
 .portfolio-section .portfolio-filter.show {
     display: block;
-    animation: fadeInTop 0.5s ease;
+    animation: fadeInTop 0.1s ease;
 }
 
 .portfolio-section .portfolio-item-inner {
@@ -920,7 +920,7 @@ about section
 .portfolio-section .portfolio-item-img img {
     border-radius: 5px;
     width: 100%;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 .portfolio-section .portfolio-item-inner:hover .portfolio-item-img img {
@@ -975,7 +975,7 @@ about section
     overflow-y: scroll;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 .portfolio-popup.open {
@@ -1009,7 +1009,7 @@ about section
     border: 3px solid var(--skin-color);
     border-radius: 50%;
     border-right: 3px solid transparent;
-    animation: spin 2s linear infinite;
+    animation: spin 1s linear infinite;
 }
 
 .portfolio-popup .pp-details {
@@ -1019,7 +1019,7 @@ about section
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: all 0.1s ease;
 }
 
 .portfolio-popup .pp-details.active {
@@ -1144,7 +1144,7 @@ about section
     padding: 0 15px;
     height: 40px;
     line-height: 40px;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 .portfolio-popup .pp-project-details-btn i {
@@ -1167,7 +1167,7 @@ about section
     font-size: 35px;
     color: var(--text-black-600);
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 .portfolio-popup .pp-close::after {
@@ -1195,7 +1195,7 @@ about section
     cursor: pointer;
     z-index: 1010;
     color: var(--text-black-900);
-    color: all 0.3s ease;
+    color: all 0.1s ease;
     opacity: 0.6;
 }
 
