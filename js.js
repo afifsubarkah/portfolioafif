@@ -178,14 +178,14 @@ function bodyScrollingToggle() {
         popupSlideshow();
     });
     // prev slide
-    prevBtn.addEventListener('click', () => {
-        if (slideIndex === screenshots.length - 1) {
-            slideIndex = 0;
+    prevBtn.addEventListener("click", () => {
+        if (slideIndex === 0) {
+          slideIndex = screenshots.length - 1;
         } else {
-            slideIndex--;
+          slideIndex--;
         }
         popupSlideshow();
-    });
+      });
 
     function popupDetails() {
         if (!portfolioItems[itemIndex].querySelector('.portfolio-item-details')) {
