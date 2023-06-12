@@ -17,6 +17,7 @@ global style
     --bg-black-50: #eff0f4;
     --bg-opacity: rgba(255, 255, 255, 0.5);
     --text-black-900: #000000;
+    --text-regular-600: #ffffff;
     --text-black-700: #555555;
     --text-black-600: #666666;
     --text-black-600: #bbbbbb;
@@ -462,7 +463,7 @@ home section
 }
 
 .home-section .home-text p {
-    color: var(--text-black-600);
+    color: var(--text-black-900);
     font-size: 18px;
     text-transform: capitalize;
     margin: 0;
@@ -476,11 +477,11 @@ home section
 }
 
 .home-section .home-text h1 {
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--text-black-600);
+    font-size: 16px;
+    font-weight: none;
+    color: var(--text-black-900);
     margin: 0;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .home-section .home-text .btn-1 {
