@@ -218,7 +218,7 @@ img {
     border: 4px solid #8a49ff;
     right: 10%;
     bottom: 10%;
-    animation: spin 10s linear infinite;
+    animation: spin 5s linear infinite;
 }
 
 .effect-3 {

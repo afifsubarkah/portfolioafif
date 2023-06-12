@@ -160,12 +160,12 @@ function bodyScrollingToggle() {
         const imgSrc = screenshots[slideIndex];
         const popupImg = popup.querySelector('.pp-img');
         // activate loader
-        popup.querySelector('.pp-loader').classList.add('active');
+        // popup.querySelector('.pp-loader').classList.add('active');
         popupImg.src = imgSrc;
-        popupImg.onload = () => {
-            // deactive loadeer
-            popup.querySelector('.pp-loader').classList.remove('active');
-        };
+        // popupImg.onload = () => {
+        //     // deactive loadeer
+        //     // popup.querySelector('.pp-loader').classList.remove('active');
+        // };
         popup.querySelector('.pp-counter').innerHTML = slideIndex + 1 + 'of' + screenshots.length;
     }
     // next slide
